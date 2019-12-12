@@ -32,8 +32,9 @@ def split_doc():
 
 
 ####### Azure Cognitive Services --------------------------------------------------------------------------
-subscription_key = '02d27236595e4de1b00fb1805582c2a8'
-endpoint = 'https://francecentral.api.cognitive.microsoft.com/'
+subscription_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' #paste your subscription key here
+
+endpoint = 'https://francecentral.api.cognitive.microsoft.com/' # paste your endpoint here
 
 def authenticateClient():
     credentials = CognitiveServicesCredentials(subscription_key)
